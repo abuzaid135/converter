@@ -83,7 +83,9 @@ button {
     color: #333;
 }
 
-
+/* هذا الكلاس سيتم إضافته عبر جافاسكربت
+  لتطبيق متطلبات "user-friendly error handling"
+*/
 .error {
     color: #dc3545; /* Red color for error messages */
 }

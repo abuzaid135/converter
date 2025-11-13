@@ -36,13 +36,15 @@ function convertKilometersToMiles() {
 
 function clearFields() {
     kmInput.value = ""; 
-    displayResult("", false); }
+    displayResult("", false); 
+}
 
 function displayResult(message, isError) {
-    resultDisplay.textContent = message; 
+    resultDisplay.textContent = message;
+
     if (isError) {
         resultDisplay.classList.add('error');
     } else {
-        resultDisplay.classList.remove('error');
+        resultDisplay.classList.remove('error'); 
     }
 }
